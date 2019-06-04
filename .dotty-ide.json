@@ -1,0 +1,17 @@
+[ {
+  "id" : "root/compile",
+  "compilerVersion" : "0.15.0-RC1",
+  "compilerArguments" : [ "-bootclasspath", "/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/classes" ],
+  "sourceDirectories" : [ "/Users/olafurpg/dev/dotty-example-project/src/main/scala-0.15", "/Users/olafurpg/dev/dotty-example-project/src/main/scala", "/Users/olafurpg/dev/dotty-example-project/src/main/java", "/Users/olafurpg/dev/dotty-example-project/target/scala-0.15/src_managed/main" ],
+  "dependencyClasspath" : [ "/Users/olafurpg/.ivy2/cache/ch.epfl.lamp/dotty-library_0.15/jars/dotty-library_0.15-0.15.0-RC1.jar", "/Users/olafurpg/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar" ],
+  "classDirectory" : "/Users/olafurpg/dev/dotty-example-project/target/scala-0.15/classes",
+  "projectDependencies" : [ ]
+}, {
+  "id" : "root/test",
+  "compilerVersion" : "0.15.0-RC1",
+  "compilerArguments" : [ "-bootclasspath", "/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/jre/classes" ],
+  "sourceDirectories" : [ "/Users/olafurpg/dev/dotty-example-project/src/test/scala-0.15", "/Users/olafurpg/dev/dotty-example-project/src/test/scala", "/Users/olafurpg/dev/dotty-example-project/src/test/java", "/Users/olafurpg/dev/dotty-example-project/target/scala-0.15/src_managed/test" ],
+  "dependencyClasspath" : [ "/Users/olafurpg/dev/dotty-example-project/target/scala-0.15/classes", "/Users/olafurpg/.ivy2/cache/ch.epfl.lamp/dotty-library_0.15/jars/dotty-library_0.15-0.15.0-RC1.jar", "/Users/olafurpg/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.8.jar" ],
+  "classDirectory" : "/Users/olafurpg/dev/dotty-example-project/target/scala-0.15/test-classes",
+  "projectDependencies" : [ "root/compile" ]
+} ]

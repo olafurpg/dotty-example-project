@@ -11,6 +11,7 @@ object AutoParamTupling {
       * https://dotty.epfl.ch/docs/reference/changed-features/lazy-vals.html
       */
     @volatile lazy val xs: List[String] = List("d", "o", "t", "t", "y")
+    val x = println(xs)
 
     /**
       * Current behaviour in Scala 2.12.2 :
